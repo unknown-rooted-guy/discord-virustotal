@@ -100,9 +100,6 @@ nano .env
 
 Edit *your_discord_bot_token* with your Discord bot token, obtained in https://discord.com/developers/docs/intro. Also replace *your_virustotal_api_key* with your Virus Total api, obtained in https://www.virustotal.com/ and find the API key in there.
 
-DISCORD_TOKEN=your_discord_bot_token
-VT_API_KEY=your_virustotal_api_key
-
 ⚠️ - Do NOT share this with anyone, APIs and tokens must be secured and shared one with your trust.
 
 ## 6. Run the bot
@@ -115,7 +112,6 @@ Expected output:
 
 ```Bash
 VirusTotal bot ready
-Slash commands will appear automatically after sync.
 ```
 
 ## 7. Common issues
@@ -129,9 +125,12 @@ Permission error on Linux
 pip install --user discord.py aiohttp python-dotenv
 ```
 
-Low RAM devices
+Low RAM devices:
+
 • Close background apps
+
 • Avoid scanning large files
+
 • Free VT API tier recommended
 
 ## 8. Update bot
